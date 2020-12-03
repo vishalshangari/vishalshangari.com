@@ -9,7 +9,7 @@ const Projects = () => {
     <ProjectsWrapper>
       <Project>
         <strong>comparify.io</strong>
-        &nbsp;&nbsp;
+        &nbsp;&mdash;&nbsp;
         <Link href="https://comparify.io">visit</Link>&nbsp;/&nbsp;
         <Link href="https://comparify.io">github</Link>
         <p>
@@ -18,7 +18,8 @@ const Projects = () => {
         </p>
       </Project>
       <Project>
-        <strong>everylink</strong>&nbsp;&nbsp;
+        <strong>everylink</strong>&nbsp;
+        <span className="development">(in development)</span>&nbsp;&mdash;&nbsp;
         <Link href="https://everylink.me">visit</Link>&nbsp;/&nbsp;
         <Link href="https://comparify.io">github</Link>
         <p>
@@ -27,11 +28,11 @@ const Projects = () => {
         </p>
       </Project>
       <Project>
-        <strong>simple blockchain</strong>&nbsp;&nbsp;
+        <strong>simple blockchain</strong>&nbsp;&mdash;&nbsp;
         <Link href="https://comparify.io">github</Link>
         <p>
           A simple implementation of blockchain in Java with a Spring Boot REST
-          API
+          API for visualization.
         </p>
       </Project>
     </ProjectsWrapper>
@@ -58,6 +59,10 @@ const Project = styled.div`
     p {
       opacity: 0.75;
     }
+  }
+  .development {
+    opacity: 0.5;
+    font-style: italic;
   }
 `;
 
