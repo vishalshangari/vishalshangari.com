@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+// assets
+import resume from "../assets/VishalShangari-Resume.pdf";
+
 // icons
 import { FaEnvelope, FaGithub } from "react-icons/fa";
 import { ImFileText2 } from "react-icons/im";
@@ -14,7 +17,7 @@ const Actions = () => {
         </span>
         My Github
       </Button>
-      <Button href="https://github.com/vishalshangari/">
+      <Button href={resume}>
         <span className="icon">
           <ImFileText2 />
         </span>
