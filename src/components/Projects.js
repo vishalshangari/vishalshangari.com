@@ -18,8 +18,8 @@ const Projects = () => {
         </p>
       </Project>
       <Project>
-        <strong>everylink</strong>&nbsp;
-        <span className="development">(in development)</span>&nbsp;&mdash;&nbsp;
+        <strong>everylink</strong>
+        &nbsp;&mdash;&nbsp;
         <Link href="https://everylink.me">visit</Link>&nbsp;/&nbsp;
         <Link href="https://comparify.io">github</Link>
         <p>
