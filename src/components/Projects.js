@@ -31,7 +31,9 @@ const Projects = () => {
       </Project>
       <Project>
         <strong>simple blockchain</strong>&nbsp;&mdash;&nbsp;
-        <Link href="https://comparify.io">github</Link>
+        <Link href="https://github.com/vishalshangari/simple-blockchain">
+          github
+        </Link>
         <p>
           A simple implementation of blockchain in Java with a Spring Boot REST
           API for visualization.
