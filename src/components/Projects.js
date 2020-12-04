@@ -21,7 +21,9 @@ const Projects = () => {
         <strong>everylink</strong>
         &nbsp;&mdash;&nbsp;
         <Link href="https://everylink.me">visit</Link>&nbsp;/&nbsp;
-        <Link href="https://comparify.io">github</Link>
+        <Link href="https://github.com/vishalshangari/everylink-ui">
+          github
+        </Link>
         <p>
           Harness the power of your platform. Connect audiences to all of your
           content with just one, beautiful, link.
