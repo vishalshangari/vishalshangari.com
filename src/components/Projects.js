@@ -11,7 +11,9 @@ const Projects = () => {
         <strong>comparify.io</strong>
         &nbsp;&mdash;&nbsp;
         <Link href="https://comparify.io">visit</Link>&nbsp;/&nbsp;
-        <Link href="https://comparify.io">github</Link>
+        <Link href="https://github.com/vishalshangari/comparify.io">
+          github
+        </Link>
         <p>
           Compare your music with others. Get a custom comparify.io/ URL to
           share with friends. Discover new music.
