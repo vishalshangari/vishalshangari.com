@@ -26,7 +26,7 @@ const About = () => {
           <span className="icon">🤓</span>
           <span>
             enjoy building impactful products and{" "}
-            <Link href="https://news.ycombinator.com/">reading</Link> about tech
+            <Link href="https://news.ycombinator.com/">learning</Link> about tech
           </span>
         </li>
         <li className="me">
