@@ -4,8 +4,8 @@ import Link from "./shared/Link";
 const Reading = () => {
   return (
     <div>
-      <Link href="https://www.goodreads.com/book/show/35696171-enlightenment-now">
-        Englightenment Now &mdash; Steven Pinker
+      <Link href="https://www.penguinrandomhouse.ca/books/89308/thinking-fast-and-slow-by-daniel-kahneman/9780385676533">
+        Thinking Fast and Slow &mdash; Daniel Kahneman
       </Link>
     </div>
   );
